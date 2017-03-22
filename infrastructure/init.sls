@@ -1,2 +1,2 @@
 include:
-  - .datacenter
+  - infrastructure.datacenter

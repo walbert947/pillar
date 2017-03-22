@@ -1,2 +1,2 @@
 include:
-  - .dns_client
+  - infrastructure.datacenter.google.dns_client
