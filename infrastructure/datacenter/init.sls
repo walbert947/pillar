@@ -1,7 +1,7 @@
 {% if grains['dc_provider'] == 'google' %}
 include:
-  - google
+  - .google
 {% else %}
 include:
-  - generic
+  - .generic
 {% endif %}

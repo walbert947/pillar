@@ -1,2 +1,2 @@
 include:
-  - dns_client
+  - .dns_client
