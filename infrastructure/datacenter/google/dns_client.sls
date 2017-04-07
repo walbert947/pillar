@@ -14,6 +14,7 @@ resolver:
     - 'attempts:1'
 
 dnsmasq:
+  dnsmasq_conf: salt://dnsmasq/files/dnsmasq.conf
   settings:
     domain-needed: true
     no-hosts: true
