@@ -8,3 +8,18 @@ resolver:
   options:
     - 'timeout:2'
     - 'attempts:1'
+
+dnsmasq:
+  settings:
+    domain-needed: true
+    no-hosts: true
+    cache-size: 10000
+    neg-ttl: 10
+    edns-packet-max: 4096
+    dns-forward-max: 500
+    interface:
+      - lo
+    no-dhcp-interface:
+      - lo
+    bind-interfaces: true
+    log-async: 100
