@@ -29,4 +29,4 @@ dnsmasq:
     bind-interfaces: true
     log-async: 100
     server:
-      - 'server=/internal/169.254.169.254'
+      - '/internal/169.254.169.254'
